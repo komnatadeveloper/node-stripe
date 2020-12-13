@@ -30,4 +30,11 @@ So you will see an ngrok url on Terminal like following image
 - You can now use this Backend API with a public ngrok URL and with Flutter App.
 
 ## Cancel ngrok
-if you want you can comment ngrok codes, so you can use app on [Payment Screen](https://github.com/komnatadeveloper/flutter_with_stripe/blob/master/lib/screens/stripe_payment_screen2.dart) you can give apiUrl value a localhost URL and you may have a local Playground for Stripe Payment
+if you want, you can comment ngrok codes, so you can have REST API and Flutter Mobile App on your local. To do this:
+
+->  go to  [Payment Screen](https://github.com/komnatadeveloper/flutter_with_stripe/blob/master/lib/screens/stripe_payment_screen2.dart) and change apiUrl value a localhost URL 
+
+-> and then on THIS CURRENT REST API TERMINAL write 
+```
+npm run server
+
